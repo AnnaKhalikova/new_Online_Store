@@ -1,0 +1,15 @@
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/bin/Debug/net5.0/New_Online_Store.deps.json
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/bin/Debug/net5.0/New_Online_Store.runtimeconfig.json
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/bin/Debug/net5.0/New_Online_Store.runtimeconfig.dev.json
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/bin/Debug/net5.0/New_Online_Store.dll
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/bin/Debug/net5.0/ref/New_Online_Store.dll
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/bin/Debug/net5.0/New_Online_Store.pdb
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/obj/Debug/net5.0/New_Online_Store.csproj.AssemblyReference.cache
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/obj/Debug/net5.0/New_Online_Store.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/obj/Debug/net5.0/New_Online_Store.AssemblyInfoInputs.cache
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/obj/Debug/net5.0/New_Online_Store.AssemblyInfo.cs
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/obj/Debug/net5.0/New_Online_Store.csproj.CoreCompileInputs.cache
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/obj/Debug/net5.0/New_Online_Store.dll
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/obj/Debug/net5.0/ref/New_Online_Store.dll
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/obj/Debug/net5.0/New_Online_Store.pdb
+/Users/macbookpro/C#_Projekts/New_Online_Store/New_Online_Store/obj/Debug/net5.0/New_Online_Store.genruntimeconfig.cache
