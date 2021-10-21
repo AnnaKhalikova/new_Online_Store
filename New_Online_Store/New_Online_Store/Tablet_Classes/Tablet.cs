@@ -1,10 +1,10 @@
-﻿using System;
-using New_Online_Store.Enums;
+﻿using New_Online_Store.Enums;
+using New_Online_Store.Interface;
 using New_Online_Store.Tablet_Interface;
 
 namespace New_Online_Store.Tablet_Classes
 {
-    public abstract class Tablet : IComparable<Tablet>, ITabletType
+    public abstract class Tablet : ITabletType
     {
         public int ID { get; set; }
         public string Model { get; set; }
@@ -38,7 +38,7 @@ namespace New_Online_Store.Tablet_Classes
                 " / Цена: " + Price + " BYN"; ;
         }
 
-        public int CompareTo(Tablet other)
+        public int CompareTo(IElectronicsGeneralView other)
         {
             return string.Compare(this.Price.ToString(), other.Price.ToString());
         }

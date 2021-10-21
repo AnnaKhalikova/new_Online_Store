@@ -1,10 +1,10 @@
-﻿using System;
-using New_Online_Store.Enums;
+﻿using New_Online_Store.Enums;
+using New_Online_Store.Interface;
 using New_Online_Store.Phones_Interface;
 
 namespace New_Online_Store.Phone_Classes
 {
-    public abstract class Phone : IComparable<Phone>, IPhoneType
+    public abstract class Phone : IPhoneType
     {
         public int ID { get; set; }
         public string Model { get; set; }
@@ -33,7 +33,7 @@ namespace New_Online_Store.Phone_Classes
                 " / Цена: " + Price + " BYN";
         }
 
-        public int CompareTo(Phone other) // для сортировки по указанному полю - Price
+        public int CompareTo(IElectronicsGeneralView other)
         {
             return string.Compare(this.Price.ToString(), other.Price.ToString());
         }

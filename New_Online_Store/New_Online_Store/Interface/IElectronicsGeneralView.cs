@@ -1,8 +1,9 @@
-﻿using New_Online_Store.Enums;
+﻿using System;
+using New_Online_Store.Enums;
 
 namespace New_Online_Store.Interface
 {
-    public interface IElectronicsGeneralView
+    public interface IElectronicsGeneralView : IComparable<IElectronicsGeneralView>
     {
         public int ID { get; set; }
         public string Model { get; set; }

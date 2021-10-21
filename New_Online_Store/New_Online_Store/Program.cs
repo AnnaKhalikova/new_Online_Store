@@ -104,7 +104,7 @@ namespace New_Online_Store
             items.Add(macBookPro_MVVJ2RU);
             items.Add(macBookPro_MWP72RU);
 
-            //items.Sort(); // Sort items by price from Min to Max
+            items.Sort(); // Sort items by price from Min to Max
             //items.Reverse(); // Sort items by price from Max to Min
 
             Online_Store store = new Online_Store("Mobi-Store", "Пн.- Сб с 9-00 до 21:00", "+375 (44) 0000000",
@@ -127,6 +127,9 @@ namespace New_Online_Store
             buyerСart.Add(iPad_mini_MK7P3RK);
             buyerСart.Add(macBookPro_MVVJ2RU);
 
+            //buyerСart.Clear(); // Удалить все товары из корзины
+            //buyerСart.Remove(iPhone_12_Pro_Max_MGD93RM); // Удаление с карзины определенного товара
+
             Buyer buyer = new Buyer("Ruslan", "+375 (33) 3500000", true, new BuyerСart(buyerСart));
 
             buyer.BuyerDisplayInfo();
@@ -140,8 +143,15 @@ namespace New_Online_Store
 
             electronicsService.GetSumAllItemFromCollection(buyerСart);
 
-            Console.WriteLine($"\nИтоговая стоимость за {buyerСart.Count} товар(а)" +
+            if (buyerСart.Count == 0)
+            {
+                Console.WriteLine($"\tВаша корзина пуста!!!");
+            }
+            else
+            {
+                Console.WriteLine($"\nИтоговая стоимость за {buyerСart.Count} товар(а)" +
                 $" состовляет: " + electronicsService.GetSumAllItemFromCollection(buyerСart) + " BYN");
+            }
         }
     }
 }

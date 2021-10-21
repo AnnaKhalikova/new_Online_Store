@@ -1,10 +1,10 @@
-﻿using System;
-using New_Online_Store.Enums;
+﻿using New_Online_Store.Enums;
+using New_Online_Store.Interface;
 using New_Online_Store.Notebook_Classes.Notebook_Interface;
 
 namespace New_Online_Store.Notebook_Classes
 {
-    public abstract class Notebook : IComparable<Notebook>, INotebookType
+    public abstract class Notebook : INotebookType
     {
         public int ID { get; set; }
         public string Model { get; set; }
@@ -40,7 +40,7 @@ namespace New_Online_Store.Notebook_Classes
                 " / Цена: " + Price + " BYN";
         }
 
-        public int CompareTo(Notebook other)
+        public int CompareTo(IElectronicsGeneralView other)
         {
             return string.Compare(this.Price.ToString(), other.Price.ToString());
         }

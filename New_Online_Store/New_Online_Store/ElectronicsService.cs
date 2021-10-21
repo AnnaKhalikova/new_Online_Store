@@ -5,7 +5,7 @@ using New_Online_Store.Interface;
 
 namespace New_Online_Store
 {
-    public class ElectronicsService : IComparable<ElectronicsService>, IDisplay, IElectronicsGeneralView
+    public class ElectronicsService : IDisplay
     {
         public BuyerСart Сart { get; set; }
         public int ID { get; set; }
@@ -42,11 +42,6 @@ namespace New_Online_Store
             }
 
             return result;
-        }
-
-        public int CompareTo(ElectronicsService other) // переделать
-        {
-            return string.Compare(this.Price.ToString(), other.Price.ToString());
         }
     }
 }
