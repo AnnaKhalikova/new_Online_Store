@@ -19,7 +19,7 @@ namespace New_Online_Store
 
         public void BuyerCartDisplayInfo()
         {
-            Console.WriteLine("Корзина покупателя: " + buyerСart);
+            Console.WriteLine("Корзина покупателя: " + buyerСart);//buyerCart collection doesn't display correctly, to dispay items in collection try to use foreach or smth. else for iteration
         }
     }
 }
